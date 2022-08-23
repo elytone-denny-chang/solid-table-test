@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scrollbar-color: #6969dd #e0e0e0;
-    scrollbar-width: thin;
+
+.utable {
+    overflow-y: scroll;
 }
 
-/* ::-webkit-scrollbar {
-    color: orange;
-} */
+.uth {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}

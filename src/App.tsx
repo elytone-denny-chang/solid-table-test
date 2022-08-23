@@ -2,23 +2,20 @@ import { Component, For } from 'solid-js';
 
 const App: Component = () => {
     return (
-        <div class="h-screen w-screen grid p-10" style={{ "grid-template-rows": "min-content fit-content" }} >
-            <div class="grid grid-cols-4">
-                <div class="text-center">asdknsadklas</div>
-                <div class="text-center">asdknsadklas</div>
-                <div class="text-center">asdknsadklas</div>
-                <div class="text-center">asdknsadklas</div>
-            </div>
-            <div class="grid grid-flow-row overflow-y-scroll">
+        <div class="h-screen w-screen bg-green-100">
+            <div class="utable grid w-full h-full p-10" style={{ "grid-template-columns": "repeat(4, auto)" }}>
+                <div class="uth bg-slate-500">askldnsalkd</div>
+                <div class="uth bg-slate-500">askldnsalkd</div>
+                <div class="uth bg-slate-500">askldnsalkd</div>
+                <div class="uth bg-slate-500">askldnsalkd</div>
+
                 <For each={Array(100)}>
-                    {() =>
-                        <div class=" hover:bg-orange-50 grid grid-cols-4">
-                            <div>asdsadasd</div>
-                            <div>asdsadasd</div>
-                            <div>asdsadasd</div>
-                            <div>asdsadasd</div>
-                        </div>
-                    }
+                    {() => <>
+                        <div class="utd">nklnlkhntrklnhktrlnhkltrn</div>
+                        <div class="utd">nklnlkhntrklnhktrlnhkltrn</div>
+                        <div class="utd">nklnlkhntrklnhktrlnhkltrn</div>
+                        <div class="utd">nklnlkhntrklnhktrlnhkltrnaasdsadsadsadasdsadasrgrengklnkkkkkkkkkkkkkkkkkkkkknskladkllllllllllllllllllllllllllll</div>
+                    </>}
                 </For>
             </div>
         </div>
